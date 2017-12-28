@@ -1,0 +1,27 @@
+{
+  "name": "firstpackage",
+  "version": "1.0.0",
+  "description": "test repository to test npm and git ",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millanfusella/Angular-Test.git"
+  },
+  "keywords": [
+    "hola"
+  ],
+  "author": "Emmanuel Millan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/millanfusella/Angular-Test/issues"
+  },
+  "homepage": "https://github.com/millanfusella/Angular-Test#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
